@@ -1,0 +1,3 @@
+Robot realmente é um framework
+
+É um organizador e facilitador da automação geral (RPA = Robotic automation process)
