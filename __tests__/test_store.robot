@@ -39,6 +39,7 @@ Get Order
     Should Be Equal    ${response_body}[shipDate]    ${shipDate}
     Should Be Equal    ${response_body}[status]    ${status}
     Should Be Equal    ${response_body}[complete]    ${{bool($complete)}}
+    
 
 Delete Order
     ${response}    DELETE    url=${url}/order/${id}
